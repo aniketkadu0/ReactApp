@@ -4,15 +4,17 @@ import Myfun from "./myclass";
 import Toggle from "./toggle";
 import Login from "./login";
 import LoginControl from "./logincontrol";
+import Rooms from "./Rooms";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
   {/* <Game />
   <Myfun name = "Pravin Yadav" />
-  <Toggle /> */}
+  <Toggle />
   <Login isLoggedIn = {true} />
-  <LoginControl />
+  <LoginControl /> */}
+  <Rooms />
   </div>
 );
 
