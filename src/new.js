@@ -1,5 +1,9 @@
-export default function Selection(props){
+import { useLocation } from "react-router-dom";
+  
+export default function Selection(){
+    const { state } = useLocation();
+    const { value } = state;
     return(
-        <h1>{this.props.value} No. Selected </h1>
+        <h1>{value} No. Selected </h1>
     );
 }
